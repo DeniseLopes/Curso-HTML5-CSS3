@@ -1,0 +1,7 @@
+h1{
+	border: 2px solid blue;
+	background-color: green;
+	color: white;
+}
+/* da para aplicar cores tanto na borda, 
+quanto no fundo e na escrita*/

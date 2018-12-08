@@ -1,0 +1,22 @@
+body{
+
+	/*background-color: rgba(214,169,213);*/
+	/*background-color: #ff0000;*/
+	/*background-color: rgb(250,35,1);*/
+	background-image: url('../img/logo_coracao.png');
+	/*background-repeat: no-repeat*/
+	/*background-size: 100%;*/
+	/*background-repeat: repeat-x;*/
+	background-repeat: repeat-y;
+
+
+}
+
+/*as cores do backgroung-color podem ser escritas, 
+exemplo red, ou em hashtag em hexadecimal,
+ ou em rgba*/
+ /* background-repeat: repeat x faz com que a img
+ se repita na lateral da tela;
+
+/* background-repeat: repeat y a img se repete na horizontal
+da tela;*/

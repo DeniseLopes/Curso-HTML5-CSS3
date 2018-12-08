@@ -1,0 +1,23 @@
+/*h1{
+
+	color: red;
+}
+*/
+/*O h1 neste caso representa o seletor,
+ a propriedade é color e o valor é red,
+ podemoms adicionar varias propriedades
+ a esse seletor*/
+
+ .cabecalho{
+
+	color: green; 	
+ }
+ #nome{
+ 	color: rgba(80,0,59, 0.9);
+ }
+
+ /*Se o programa tiver 10 h1, com a classe da para
+ identificar qual h1 sera modificado*/
+ 
+ /*para chamar o id no css utilizo #e  mome do id
+  em sequancia chaves*/

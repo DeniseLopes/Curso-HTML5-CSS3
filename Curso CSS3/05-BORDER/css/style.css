@@ -1,0 +1,17 @@
+h1{
+	/*border: 2px solid red;*/
+	border-width: 5px;
+	border-style: inset;
+	border-color: blue; 
+	border-top: 5px solid green;
+	border-radius: 25px;
+
+}
+
+/* A borda tem 2px de largura,
+ estilo solida e da cor vermelha;*/
+ /*border-radius deixa a borda arredondada*/
+ /*border-width define a espessura da borda*/
+ /*border-style define o estilo da borda*/
+ /* border-color define a cor da borda*/
+ /* border-top define a borda de cima*/

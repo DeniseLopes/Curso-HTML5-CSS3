@@ -1,0 +1,9 @@
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 
+}
+/*text-aling: center -> centraliza o texto no navegador
+  text-transform: uppercase -> deixa todas as letras em maiúscula
+  text-transform: lowercase -> deixa todas as letras em minuscula
+  text-shadow: 3px 2px red faz sombra no fundo contornando as letras*/
