@@ -1,0 +1,55 @@
+.form{
+	width: 40%;
+	margin: 0 auto
+	margin-top: 50px;
+	margin-left: 30%;
+}
+
+
+.form input{
+	width: 50%;
+	margin: 10px 0;
+	padding: 8px 10px;
+	border: 1px solid #555;
+	box-sizing: border-box;
+}
+
+.form button{
+	border-radius: 5px;
+	padding: 10px;
+	background-color: rgba(69,69,69, 0.5);
+	width: 50%;
+	margin: 5px auto;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+}
+
+/*Imagem esquerdo*/
+
+.esquerdo{
+	width: 40%;
+	height: 400px;
+	float: left;
+}
+.esquerdo img{
+	border-radius: 5px;
+	margin: 50px 80px;
+}
+
+/*imagem direito*/
+
+.direito{
+	width: 25%;
+	height: 400px;
+	float: right;
+	margin:-338px 50px 0 0;
+}
+
+.direito img{
+	border-radius: 5px;
+
+}
+
+/*footer*/

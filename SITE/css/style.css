@@ -1,0 +1,116 @@
+/*Tamamho do site,a main é o local que 
+recebe as divs ou sections*/
+main{
+
+width: 100%;
+margin: 0 auto;
+}
+
+body{
+background-color: rgba(213, 217,223);
+font-family: 'Lobster', cursive;
+
+	
+}
+
+/*Menu*/
+
+nav{
+	width: 100%;
+	height: 100px;
+	float: 0 auto;
+}
+
+.logo{
+	width: 200px;
+	float: left;
+	margin-top: -10px;
+	margin-left: 15px;
+}
+
+li{
+	float: left;
+	list-style: none;
+	padding-left: 10px;
+	margin-top: 35px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: rgba(70,70,70);
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+/*Banner*/
+
+.banner img{
+	width: 98%;
+	height: 400px;
+	margin: 12px;
+	border-radius: 10px;
+}
+
+/*Section*/
+
+/*1º box*/
+.col-1{
+	width: 30%;
+	height: 200px;
+	margin-top: 5px;
+	float: left;
+	margin: 10px;
+	background-color: rgba(127, 127, 127);
+	border-radius: 20px;
+	margin-left: 45px;
+}
+.img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px; 
+}
+
+p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*2º box*/
+.col-2{
+	width: 30%;
+	height: 200px;
+	margin-top: 5px;
+	float: left;
+	margin: 10px;
+	background-color: rgba(127, 127, 127);
+	border-radius: 20px;
+}
+
+/*3º box*/
+.col-3{
+	width: 30%;
+	height: 200px;
+	margin-top: 5px;
+	float: left;
+	margin: 10px;
+	background-color: rgba(127, 127, 127);
+	border-radius: 20px;
+}
+
+/*Footer*/
+
+footer{
+
+	width: 23%;
+	min-height: 100px;
+	margin: 0 auto;
+}
+
+footer li{
+	padding: 20px;
+}
