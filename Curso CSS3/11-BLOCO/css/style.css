@@ -1,0 +1,15 @@
+li{
+	border: 2px solid blue;
+	display: inline-table;
+}
+
+a{
+	border:2px solid red;
+	display: block;
+}
+
+/*Quando crio uma lista com somente os valores
+das bordas, posso utilizar na construção de menu lateral.
+Quando declaro o valor inline, o navegador retorna
+um menu de linha e inline-block, divide o meu 
+em blocos.*/

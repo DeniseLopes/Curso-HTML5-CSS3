@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+
+<form>
+
+	<input type="text" name="nome"> <br>
+	<br> lista de carros:
+
+	<select name = "carros"> 
+		<option value="uno">uno</option>
+		<option value="corsa">corsa</option>
+
+	</select>
+	<br>
+	<br>fale sobre seu carro:<br>
+	<textarea name="msg" rows="10" cols="50">
+		
+	</textarea><br>
+	<input type="date"><br>
+
+	<br><input type="datetime-local"> <br>
+
+	<br><input type="file"><br>
+
+	<br><button value="submit">Enviar</button>
+</form>
+
+</body>
+</html>
+
+<!- a ação name = "nome" este "nome" tem que ser 
+igual o do banco de dados, pq quando é digitado 
+um valor no formulário, aquele valor vai ser 
+atribuido ao name com o valor "nome" na base de dados->
+
+<!-O elemento select define uma lista de dado a 
+tag option define a opção que pode ser selecionada->
+
+<!-Esta é uma lista que recebe o name carros. O 
+nome da lista "carros" tem que ser igual ao nome 
+relacionado no banco de dados, tem que estar 
+"carros"->
+<!-O value esta recebendo o valor "uno", ele vai 
+ser atribuido a este name, por isso que todos os 
+names tem que estar de acordo com a base de dados->
+<!-O select define uma lista e o option fornece as opcões para esta lista->
+<!- a tag textarea aceita o name que é a "msg" 
+que vc esta enviando. Aceita rows que especifica o numero visivel de linhas dentro desta area de 
+texto. E o cols é a largura visivel da area de 
+texto->
+<!-O tipo date mostra na tela um calendario para
+selecionar a data atual. O tipo datetime, é possivel selecionar a data no calendario e inserir o horario manual.->
+<!-O tipo file, aparece na tela um botão
+ "Escolher arquivo" ele vai no seu computador para selecionar algum arquivo->
